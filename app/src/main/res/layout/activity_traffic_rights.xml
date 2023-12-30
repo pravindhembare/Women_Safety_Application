@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:rowCount="5"
+    android:columnCount="1"
+    android:padding="16dp"
+    android:alignmentMode="alignMargins"
+    android:columnOrderPreserved="false"
+    android:background="@drawable/custom_background2"
+    tools:context=".TrafficRights">
+
+    <ImageView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/z25" />
+
+
+
+    <!-- Row 1, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="visible"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Right to Stop" />
+    </LinearLayout>
+
+    <!-- Row 2, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Responsibility to Obey Signals" />
+    </LinearLayout>
+
+    <!-- Row 3, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Right to Information." />
+    </LinearLayout>
+
+    <!-- Row 4, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Responsibility to Provide Documents." />
+    </LinearLayout>
+
+    <!-- Row 5, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/custom_background"
+        android:visibility="visible"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Right to Fair Treatment" />
+    </LinearLayout>
+
+    <!-- Row 6, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Responsibility to Follow Instructions" />
+    </LinearLayout>
+
+    <!-- Row 7, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Right to Challenge Unfair Practices" />
+    </LinearLayout>
+
+    <!-- Row 8, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:visibility="visible"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Responsibility to Cooperate" />
+    </LinearLayout>
+
+    <!-- Row 9, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Right to Appeal"/>
+    </LinearLayout>
+
+    <!-- Row 10, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Responsibility to Ensure Vehicle Compliance" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <!--    Block 1 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="Right to Stop." />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Individuals have the right to be signaled to stop by traffic police when necessary. This could be for routine checks, traffic violations, or to manage the flow of traffic.
+                \n 1) Traffic Control and Safety: Traffic police have the right to signal individuals to stop to manage and control the flow of traffic. This is crucial at intersections, crosswalks, and other points where traffic needs to be regulated for the safety of all road users.
+                \n 2) Routine Checks and Inspections: Traffic police may signal drivers to stop for routine checks and inspections. These checks could include verifying documents such as driver's licenses, vehicle registrations, and insurance to ensure compliance with legal requirements.
+                \n 3) Enforcement of Traffic Violations: When traffic violations are observed, such as speeding, running a red light, or reckless driving, traffic police have the right to signal the violator to stop. This enables them to address the violation, issue citations if necessary, and promote adherence to traffic rules.
+                \n 4) Ensuring Emergency Vehicle Priority: Traffic police may signal other vehicles to stop to give priority to emergency vehicles such as ambulances, fire trucks, or police cars. This helps create a clear path for emergency responders to reach their destination quickly.
+                \n 5) Managing Traffic Flow: In situations where traffic congestion or gridlock occurs, traffic police can signal drivers to stop temporarily to alleviate the congestion and restore the smooth flow of traffic.
+                \n 6) Ensuring Public Safety: The right to stop is exercised by traffic police to ensure public safety on the roads. By directing vehicles to stop when necessary, they can prevent accidents, reduce traffic-related risks, and maintain overall road safety.
+                \n 7) Compliance with Instructions: Individuals, upon being signaled to stop by traffic police, have the responsibility to comply promptly and safely. This includes coming to a complete stop, following further instructions given by the officers, and providing any requested information or documentation.
+                \n 8) Legal Authority: The right to stop is derived from the legal authority granted to traffic police to enforce traffic laws and regulations. It is an essential element of their duty to uphold public safety on the roads.
+                \n Overall, the right to stop is a critical tool for traffic police to effectively manage and regulate road traffic, ensuring the safety and well-being of both drivers and pedestrians.
+	            \n\n"/>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+
+
+    <!--    Block 2 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="Responsibility to Obey Signals." />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Everyone on the road has the responsibility to obey signals given by traffic police officers. This includes hand signals, stop signals, and signals indicating changes in traffic flow.
+                \n 1) Traffic Signals: Individuals must follow traffic signals, including traffic lights, pedestrian signals, and other visual indications given by traffic police officers. This ensures a coordinated and safe movement of vehicles and pedestrians.
+                \n 2) Hand Signals: Traffic police officers often use hand signals to direct or control traffic. Drivers and pedestrians should be attentive to these signals and respond accordingly. Common hand signals include gestures to stop, proceed, or change lanes.
+                \n 3) Stop Signals: When a traffic police officer signals to stop, it is the responsibility of drivers to come to a complete halt. This could be for routine checks, allowing the passage of other vehicles, or managing intersections.
+                \n 4) Changes in Traffic Flow: Traffic police officers may use signals to indicate changes in traffic flow, such as lane closures, detours, or the need to yield to oncoming traffic. It is the responsibility of road users to understand and comply with these signals.
+                \n 5) Adaptation to Conditions: Depending on road conditions, events, or emergencies, traffic police officers may use signals to guide traffic. Individuals should be prepared to adapt to these changing conditions and follow the signals accordingly.
+                \n 6) Ensuring Smooth Traffic Flow: Adherence to signals contributes to the smooth flow of traffic. By obeying signals, road users help prevent congestion, reduce the risk of accidents, and contribute to overall road safety.
+                \n 7) Respect for Authority: Following signals from traffic police officers demonstrates respect for their authority and their role in ensuring public safety. This cooperation fosters a positive relationship between law enforcement and the community.
+                \n 8) Legal Compliance: Obedience to traffic signals is not only a responsibility for safety but also a legal requirement. Failure to follow signals can result in traffic violations and penalties.
+                \n In summary, the Responsibility to Obey Signals underscores the importance of individual compliance with signals provided by traffic police officers. This cooperative effort is fundamental to creating a secure and organized traffic environment for all road users.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <!--    Block 3 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="Right to Information" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="If stopped by traffic police, individuals have the right to ask for clarification on the reason for the stop and any actions required.
+                \n 1) Nature of the Right: The Right to Information is a fundamental entitlement that empowers individuals to seek clarification and details about the reason for being stopped by traffic police.
+                \n 2) Reasonable Inquiry: Individuals have the right to make reasonable inquiries regarding the purpose of the traffic stop. This may include asking why they were signaled to stop, the nature of any potential violation, or any required actions.
+                \n 3) Clear Communication: Traffic police officers are expected to communicate clearly and provide information in a manner that is easily understandable by the individual. This includes explaining the specific traffic rule or violation in question.
+                \n 4) Understanding Traffic Violations: Individuals can seek information about the specific traffic law or regulation they are alleged to have violated. This helps in promoting awareness and understanding of traffic rules.
+                \n 5) Legal Basis: The Right to Information is often supported by legal frameworks that emphasize transparency and fair treatment. Traffic laws may outline the procedures for communication between individuals and traffic police during stops.
+                \n 6) Request for Identification: Individuals have the right to request identification from the traffic police officer to ensure that the interaction is legitimate and that they are dealing with an authorized law enforcement official.
+                \n 7) Documentation of the Stop: Individuals can inquire about the documentation related to the traffic stop. This may include asking for a copy of any citation issued, noting the badge number of the officer, and obtaining relevant details for future reference.
+                \n 8) Provision of Guidance: Traffic police officers are expected to provide guidance on any necessary actions that the individual should take to comply with traffic rules or resolve the situation.
+                \n 9) Respectful Interaction: The Right to Information is exercised within the bounds of respectful and cooperative interaction. Individuals are encouraged to seek information in a polite and non-confrontational manner.
+                \n 10) Appeal Process: If individuals are not satisfied with the information provided during the traffic stop, they have the right to inquire about the appeal process, including how to contest any issued citations through appropriate legal channels.
+                \n In summary, the Right to Information empowers individuals during traffic stops, ensuring that they can seek clarification, understand the reasons for the stop, and obtain relevant information in a transparent and lawful manner. This right contributes to a fair and accountable traffic enforcement system.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <!--    Block 4 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="Responsibility to Provide Documents." />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Drivers have the responsibility to provide necessary documents, such as a driver's license, vehicle registration, and insurance, when requested by traffic police.
+                \n 1) Right to Request Documents:
+                \n Definition: Traffic police officers have the right to request specific documents from individuals operating a vehicle on the road.
+                \n Purpose: This right is exercised to ensure that drivers are complying with legal requirements and that the vehicles on the road are appropriately licensed and insured.
+                \n 2) Responsibility to Provide Documents:
+                \n Definition: Drivers have the responsibility to furnish the required documents, such as a valid driver's license, vehicle registration, and proof of insurance, when requested by traffic police.
+                \n Purpose: This responsibility ensures transparency and legal compliance. It allows authorities to verify that the driver is qualified to operate the vehicle, and that the vehicle itself is registered and insured as mandated by law.
+                \n 3) Key Points:
+                 \n The right of traffic police to request documents is aligned with the duty of drivers to carry and present these documents upon request.
+                \n The process helps in maintaining road safety, regulating traffic, and identifying any violations of traffic laws promptly.
+                \n Failure to provide the necessary documents may result in penalties, fines, or legal consequences.
+                \n Example Scenario:
+                \n A traffic police officer signals a driver to pull over. The officer requests the driver's license, vehicle registration, and insurance papers. The driver, in turn, has the responsibility to hand over these documents for verification.
+                \n In summary, the right of traffic police to request documents is essential for enforcing traffic laws, and the responsibility of drivers to provide these documents ensures a legal and secure environment on the roads.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+    <!--    Block 5 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="Right to Fair Treatment" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Individuals have the right to be treated fairly and respectfully by traffic police officers. This includes avoiding any form of harassment or discrimination.
+                \n 1) Respectful Treatment: Individuals have the right to be treated with dignity and respect by traffic police officers. Regardless of the situation, officers should maintain a professional and courteous demeanor.
+                \n 2) Non-Discrimination: There should be no discrimination based on factors such as race, gender, ethnicity, religion, or socio-economic status. Every individual is entitled to fair and equal treatment under the law.
+                \n 3) Absence of Harassment: Individuals have the right to be free from any form of harassment or undue aggression. Traffic police officers should conduct their duties without resorting to intimidation, bullying, or any behavior that could be perceived as harassment.
+                \n 4) Fair Enforcement of Rules: Traffic rules and regulations should be enforced consistently and fairly. Officers should not show favoritism or bias in their interactions, ensuring that everyone is held to the same standards.
+                \n 5) Clear Communication: Individuals have the right to clear communication regarding the reasons for any traffic-related stops or actions taken by the police. This includes providing information about violations, required actions, and potential consequences.
+                \n 6) Protection of Rights: The right to fair treatment extends to the protection of other legal rights. Individuals should not be subjected to arbitrary searches or seizures without proper cause, and due process should be followed.
+                \n 7) Access to Information: Individuals have the right to access relevant information about their rights and responsibilities during traffic stops. This includes information about the legal basis for the stop and the procedures that will be followed.
+                \n 8) Appeal Process: In the event of a dispute or disagreement, individuals have the right to appeal decisions through established legal channels. This ensures a fair and impartial review of any perceived injustices.
+                \n 9) Training and Accountability: Traffic police officers should undergo training to promote unbiased and fair interactions. Additionally, there should be mechanisms in place to hold officers accountable for any breaches of the right to fair treatment.
+                \n 10) Cultural Sensitivity: Officers should be culturally sensitive, recognizing and respecting diversity in the community. This includes understanding and appreciating cultural differences during traffic interactions.
+                \n The Right to Fair Treatment is a fundamental aspect of ensuring justice, equality, and respect for the rights of individuals in their interactions with traffic police. Upholding this right contributes to building trust between law enforcement and the community, fostering a sense of security and fairness on the roads.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <!--    Block 6 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="Responsibility to Follow Instructions" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Everyone is responsible for following instructions given by traffic police officers. This could include rerouting due to road closures, following detour signs, or complying with other directions.
+                \n 1) Right to Expect Clear Instructions: Individuals have the right to expect clear and unambiguous instructions from traffic police officers. These instructions may be given through hand signals, verbal communication, or traffic control devices.
+                \n 2) Responsibility to Stay Informed: It is the responsibility of every road user to stay informed about traffic conditions, road closures, and detours. This can be achieved by paying attention to road signs, listening to announcements, and staying updated through official channels.
+                \n 3) Right to a Safe and Smooth Traffic Flow: Individuals have the right to expect a safe and smooth traffic flow. Following the instructions provided by traffic police officers contributes to achieving this right for all road users.
+                \n 4) Responsibility to Adapt to Changes: When instructions from traffic police officers indicate a change in the normal traffic pattern, such as rerouting or detours, it is the responsibility of drivers and pedestrians to adapt to these changes promptly and safely.
+                \n 5) Right to Lawful and Orderly Traffic Management: Everyone on the road has the right to expect lawful and orderly traffic management. Following instructions helps maintain a structured traffic environment that minimizes congestion and reduces the risk of accidents.
+                \n 6) Responsibility to Avoid Obstruction: Following instructions includes avoiding actions that may obstruct the flow of traffic. This responsibility is particularly important at intersections, during lane changes, or when directed to stop or yield the right of way.
+                \n 7) Right to Expect Consistent Enforcement: Individuals have the right to expect consistent enforcement of traffic rules and regulations. Following instructions ensures that traffic management is carried out fairly and uniformly.
+                \n 8) Responsibility to Communicate: In cases where instructions are unclear or if there is a need for clarification, individuals have the responsibility to communicate appropriately with traffic police officers. This may involve asking questions or seeking guidance to ensure understanding.
+                \n 9) Right to Safety: Following instructions is essential for ensuring the safety of all road users. Individuals have the right to travel safely, and complying with directions from traffic police officers contributes to achieving this right.
+                \n 10) Responsibility to Report Issues: If individuals observe any issues with traffic instructions, such as malfunctioning signals or unclear signage, they have the responsibility to report these problems to the relevant authorities.
+                \n 11) Right to Efficient Traffic Management: Following instructions supports the right to efficient traffic management. When everyone complies with directions, traffic can be managed more effectively, reducing delays and improving overall road efficiency.
+                \n In summary, the right to receive and follow instructions from traffic police officers is fundamental to creating a safe and organized traffic environment. This right comes with the responsibility of staying informed, adapting to changes, and contributing to the overall goal of maintaining orderly and efficient traffic flow.
+	            \n\n"/>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+
+
+    <!--    Block 7 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="Right to Challenge Unfair Practices"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Individuals have the right to challenge any perceived unfair practices by traffic police through appropriate channels, such as filing complaints with the relevant authorities.
+                \n 1) Basis of the Right: This right is rooted in the principle that individuals should be treated fairly and justly by law enforcement agencies. It acknowledges that errors or unjust actions may occur during interactions between individuals and traffic police.
+                \n 2) Challenging Unfair Practices: If an individual believes they have been subjected to unfair treatment, harassment, or any form of misconduct by traffic police, they have the right to challenge these practices.
+                \n 3) Appropriate Channels: Individuals are entitled to challenge unfair practices through appropriate channels. This can include filing complaints with the relevant authorities responsible for overseeing law enforcement agencies or police conduct.
+                \n 4) Internal Affairs or Ombudsman Offices: Many law enforcement agencies have internal affairs divisions or ombudsman offices specifically tasked with investigating complaints against officers. Individuals can submit detailed complaints to these offices.
+                \n 5) Independent Oversight Bodies: In some jurisdictions, independent oversight bodies exist to review complaints against law enforcement agencies. These bodies operate separately from the police force and are designed to ensure impartial investigations.
+                \n 6) Complaint Procedures: There are typically established procedures for filing complaints, including specific forms or online platforms. These procedures are designed to make the process accessible to the public.
+                \n 7) Confidentiality and Protection: Complaint procedures often include provisions to protect the confidentiality and identity of the complainant. This is crucial to encourage individuals to come forward without fear of retaliation.
+                \n 8) Investigation Process: Upon receiving a complaint, the relevant authorities initiate an investigation. This investigation may involve gathering evidence, interviewing witnesses, and reviewing any available footage or records.
+                \n 9) Communication with Complainant: Authorities usually communicate with the complainant throughout the investigation process, providing updates on the status and outcomes of the investigation.
+                \n 10) Accountability Measures: If the investigation reveals misconduct or unfair practices, appropriate accountability measures are taken. This may include disciplinary actions against the involved officers, additional training, or policy changes within the law enforcement agency.
+                \n 11) Legal Recourse: In addition to internal channels, individuals may have the right to pursue legal recourse through the judicial system if they believe their rights have been violated.
+                \n This right emphasizes the importance of checks and balances in law enforcement and contributes to building trust between the public and the police. It reinforces the idea that law enforcement agencies are accountable for their actions and must address complaints transparently and fairly.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <!--    Block 8 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="Responsibility to Cooperate" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Cooperation with traffic police is a responsibility. This includes providing information, following instructions, and maintaining a calm and respectful demeanor during interactions.
+                \n 1) Providing Information: When requested by traffic police, individuals should willingly provide necessary information. This typically includes personal identification, driver's license, vehicle registration, and insurance details.
+                \n 2) Following Instructions: Cooperation involves promptly following instructions given by traffic police officers. This could include stopping at designated points, adjusting speed, changing lanes, or complying with traffic signals and signs.
+                \n 3) Remaining Calm and Respectful: It is essential to maintain a calm and respectful demeanor during interactions with traffic police. This contributes to a positive and constructive exchange, reducing the likelihood of misunderstandings or conflicts.
+                \n 4) Communicating Clearly: If there are concerns or questions, individuals should communicate them clearly and respectfully. Effective communication helps in addressing any issues and ensures that both parties understand each other.
+                \n 5) Adhering to Safety Measures: Cooperation extends to adhering to safety measures suggested or enforced by traffic police. This may involve wearing seat belts, helmets, or complying with other safety regulations.
+                \n 6) Following Traffic Signals: Cooperation includes obeying traffic signals and following the guidance provided by traffic police at intersections. This ensures a smooth flow of traffic and minimizes the risk of accidents.
+                \n 7) Assisting in Traffic Control: In certain situations, traffic police may require assistance from drivers or pedestrians to control traffic flow effectively. Cooperating with such requests is a responsibility to ensure overall safety.
+                \n 8) Reporting Incidents: Individuals have a responsibility to report any incidents, accidents, or suspicious activities to traffic police promptly. This helps authorities address issues and maintain public safety.
+                \n 9) Understanding Traffic Rules: Cooperation involves having a good understanding of and complying with traffic rules. This includes knowledge of speed limits, parking regulations, and other guidelines that contribute to orderly traffic.
+                \n 10) Respecting Authority: Recognizing and respecting the authority of traffic police officers is crucial. This involves acknowledging their role in maintaining road safety and following their directions accordingly.
+                \n By embracing the responsibility to cooperate with traffic police, individuals contribute to the overall effectiveness of traffic management and create a safer environment for everyone on the road. Cooperation fosters a positive relationship between law enforcement and the community, promoting a culture of safety and compliance with traffic regulations.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <!--    Block 9 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="Right to Appeal"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="If issued a traffic citation, individuals have the right to appeal the decision through established legal processes. This may involve contesting the citation in traffic court.
+                \n 1) Issuance of Traffic Citation: When a person is issued a traffic citation by law enforcement or traffic authorities, it is a formal notice alleging a violation of traffic rules or regulations.
+                \n 2) Right to Dispute: Individuals have the right to dispute the citation if they believe it was issued in error, if they were wrongly accused, or if there are extenuating circumstances.
+                \n 3) Established Legal Processes: The right to appeal involves following established legal processes. This typically includes a formal procedure to challenge the citation, present evidence, and state one's case.
+                \n 4) Contesting in Traffic Court: The appeal process often involves contesting the citation in traffic court. Traffic court is a legal forum specifically dedicated to handling cases related to traffic violations.
+                \n 5) Legal Representation: Individuals have the right to legal representation during the appeal process. This allows them to present their case more effectively and navigate the legal proceedings.
+                \n 6) Presentation of Evidence: During the appeal, individuals have the right to present evidence supporting their defense. This could include documentation, witness statements, or any relevant information that may impact the decision.
+                \n 7) Judicial Review: A judge or magistrate in traffic court conducts a judicial review of the case. They evaluate the evidence presented by both parties and make a determination based on the merits of the case.
+                \n 8) Outcome of the Appeal: The outcome of the appeal could result in the dismissal of the citation, a reduction in penalties, or the affirmation of the original citation. The decision is made based on the facts presented during the legal proceedings.
+                \n 9) Compliance with Legal Procedures: Individuals exercising the right to appeal must comply with all legal procedures and deadlines set by the traffic court. Failure to adhere to these procedures may result in the forfeiture of the appeal.
+                \n 10) Transparent and Fair Process: The appeal process is designed to be transparent and fair, ensuring that individuals have the opportunity to question and challenge the validity of a traffic citation within the bounds of the law.
+                \n In summary, the Right to Appeal provides a mechanism for individuals to question and seek a review of traffic citations through established legal channels, promoting fairness and justice in the enforcement of traffic regulations.
+	            \n\n"/>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <!--    Block 10 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="Responsibility to Ensure Vehicle Compliance" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Vehicle owners and drivers have the responsibility to ensure that their vehicles comply with safety standards. This includes regular maintenance, proper lighting, and adherence to vehicle regulations.
+                \n 1) Regular Maintenance: Vehicle owners are responsible for scheduling and performing regular maintenance checks on their vehicles. This includes routine tasks such as oil changes, brake inspections, tire rotations, and other manufacturer-recommended services.
+                \n 2) Proper Lighting: Ensuring that all lights on the vehicle are functioning correctly is a crucial aspect of compliance. This includes headlights, brake lights, turn signals, and other essential lighting components. Proper lighting contributes to visibility and safety on the road.
+                \n 3) Adherence to Vehicle Regulations: Vehicle owners and drivers must comply with local, regional, and national regulations governing vehicle specifications. This includes adhering to emission standards, vehicle weight limits, and other regulations set by transportation authorities.
+                \n 4) Valid Registration and Insurance: It is the responsibility of vehicle owners to ensure that their vehicles are registered and insured as required by law. Valid registration and insurance are essential for legal operation on public roads.
+                \n 5) Safety Features: Vehicles must be equipped with necessary safety features, such as airbags, seat belts, and anti-lock braking systems (ABS), in accordance with safety standards. Regular checks should be conducted to ensure these features are in proper working condition.
+                \n 6) Compliance with Environmental Standards: Vehicles should meet environmental standards, including emissions controls, to minimize their impact on air quality. Compliance with environmental regulations is essential for sustainable and eco-friendly transportation.
+                \n 7) Prompt Repairs: Any defects or malfunctions identified during routine maintenance or otherwise should be promptly addressed through necessary repairs. This includes addressing issues related to the engine, brakes, steering, and other critical components.
+                \n 8) Vehicle Inspections: Compliance involves participating in mandatory vehicle inspections, if required by local regulations. These inspections may be conducted periodically to ensure that vehicles meet safety and emission standards.
+                \n 9) Safe Loading Practices: For those operating commercial vehicles, there is a responsibility to adhere to weight limits and safe loading practices. Overloading a vehicle can compromise its safety and roadworthiness
+                \n 10) Awareness of Recalls: Vehicle owners should stay informed about recalls related to their vehicle make and model. In the event of a recall, prompt action should be taken to address any identified safety concerns.
+                \n By fulfilling these responsibilities, vehicle owners contribute to road safety, reduce the risk of accidents, and ensure that their vehicles operate in a manner consistent with legal and regulatory standards. This, in turn, promotes a safer and more efficient transportation system for everyone on the road.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</GridLayout>

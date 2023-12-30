@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:rowCount="5"
+    android:columnCount="1"
+    android:padding="16dp"
+    android:alignmentMode="alignMargins"
+    android:columnOrderPreserved="false"
+    android:background="@drawable/custom_background2"
+    tools:context=".SocialSecurity">
+
+    <ImageView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/z24" />
+
+
+
+    <!-- Row 1, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="visible"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Pradhan Mantri Shram Yogi Maan-Dhan Yojana (PM-SYM) (Old Age Protection)" />
+    </LinearLayout>
+
+    <!-- Row 2, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="National Pension Scheme for Traders and The Self-employed Persons (NPS)" />
+    </LinearLayout>
+
+    <!-- Row 3, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Pradhan Mantri Jeevan Jyoti Yojana (PMJJBY)" />
+    </LinearLayout>
+
+    <!-- Row 4, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Pradhan Mantri Suraksha Bima Yojana (PMSBY)" />
+    </LinearLayout>
+
+    <!-- Row 5, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/custom_background"
+        android:visibility="visible"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Atal Pension Yojana" />
+    </LinearLayout>
+
+    <!-- Row 6, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Pradhan Mantri Awaas Yojana – Gramin (PMAY-G)" />
+    </LinearLayout>
+
+    <!-- Row 7, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="National Social Assistance Programme (NSAP) -Old age Protection" />
+    </LinearLayout>
+
+    <!-- Row 8, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:visibility="visible"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Ayushman Bharat-Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)" />
+    </LinearLayout>
+
+    <!-- Row 9, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Pradhan Mantri Kisan Mandhan Yojana"/>
+    </LinearLayout>
+
+    <!-- Row 10, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Self Employment Scheme for Rehabilitation of Manual Scavengers" />
+    </LinearLayout>
+
+
+
+
+    <!--    Block 1 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="Pradhan Mantri Shram Yogi Maan-Dhan Yojana (PM-SYM) (Old Age Protection)" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Voluntary and contributory pension schemes
+\n Monthly contribution ranges from Rs.55 to Rs.200 depending upon the entry age of the beneficiary.
+\n Under this schemes, 50% monthly contribution is payable by the beneficiary and equal matching contribution is paid by the Central Government.
+\n Eligibility
+\n Should be an Indian Citizen
+\nUnorganised Workers (working as street vendors, agriculture related work, construction site workers, workers in industries of leather, handloom, mid-day meal, rickshaw or auto wheelers, rag picking, carpenters, fisherman’s etc.
+\nAge group of 18-40 years
+\nMonthly income is below Rs.15000 and not a member of EPFO/ESIC/NPS (Govt. funded).
+\n Benefits
+\n After attaining the age of 60 yrs, beneficiaries are entitled to receive monthly assured pension of Rs.3000/-.
+\n On death of the beneficiary, spouse is eligible for 50% monthly pension.
+\n If husband and wife, both joins the scheme, they are eligible for Rs. 6000/- monthly pension jointly.
+	\n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <!--    Block 2 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="National Pension Scheme for Traders and The Self-employed Persons (NPS)" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Voluntary and contributory pension schemes
+\n Monthly contribution ranges from Rs.55 to Rs.200 depending upon the entry age of the beneficiary.
+\n Under this schemes, 50% monthly contribution is payable by the beneficiary and equal matching contribution is paid by the Central Government.
+\n Eligibility
+\n Should be an Indian Citizen
+\n Shopkeepers or owners who have petty or small shops, restaurants, hotels, real estate brokers etc.
+\n Age of 18-40 years
+\n Not covered in EPFO/ESIC/PM-SYM
+\n Annual turnover not more then 1.5 Crore in rupees
+\n Benefits
+\n Under the schemes, beneficiaries are entitled to receive monthly assured pension of Rs.3000/- after attaining the age of 60 years.
+	\n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <!--    Block 3 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="Pradhan Mantri Jeevan Jyoti Yojana (PMJJBY)" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Eligibility
+                \n Should be an Indian Citizen
+                \n In the age group 18 to 50 years
+                \n Having Jandhan or saving bank account with Aadhaar.
+                \n Auto-debit from bank account on consent
+                \n Benefits
+                \n Rs.2 lakh on death due to any cause
+                \n Premium @ Rs.436/- year
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <!--    Block 4 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="Pradhan Mantri Suraksha Bima Yojana (PMSBY)" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Eligibility
+                \n Should be an Indian Citizen
+                \n In the age group 18 to 70 years
+                \n Having Jandhan or saving bank account with Aadhaar.
+                \n Auto-debit from bank account on consent
+                \n Benefits
+                \n The risk coverage under the scheme is Rs. 2 lakh for accidental death and full disability and Rs. 1 lakh for partial disability.
+                \nPremium @ 20/- year
+	\n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <!--    Block 5 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="Atal Pension Yojana" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Eligibility
+                \n Should be an Indian citizen
+                \n Between the age of 18-40 years
+                \n Having bank account linked with Aadhaar
+                \n Benefits
+                \n The contributor on his choice, can attain a pension of 1000-5000 rupees, or he can also get an accumulated sum of the pension after his death.
+                \n The accumulated amount will be given to the spouse or if the spouse is dead as well then to the nominee.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <!--    Block 6 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="Pradhan Mantri Awaas Yojana – Gramin (PMAY-G)" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Eligibility
+                \n Should be an Indian citizen
+                \n Any family including workers, which does not have a member between ages 15 and 59 years of age.
+                \n Any family which has a disabled member is also eligible to avail of benefits under Pradhan Mantri Awas Gramin Yojana
+                \n Those who do not have a permanent job and only engaged in casual labour.
+                \n Benefits
+                \n Assistance provided to the Beneficiary to the tune of 1.2 Lakhs in plain areas and 1.3 Lakhs in Hilly Areas
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <!--    Block 7 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="National Social Assistance Programme (NSAP) -Old age Protection"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Eligibility
+                \n Should be an Indian citizen
+                \n Any person who has little or no regular means of subsistence from his/her own source of income or through financial support from family members or other sources.
+                \n Benefits
+                \n Central Contribution @ Rs 300 to Rs 500 for different age group.
+                \n Monthly pension ranges from Rs 1000 to rs 3000/ depending upon state’s contribution.
+                \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <!--    Block 8 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="Ayushman Bharat-Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Eligibility
+                \n Those living in scheduled caste and scheduled tribe households.
+                \n Families with no male member aged 16 to 59 years.
+                \n Beggars and those surviving on alms
+                \n Benefits
+                \n Health coverage of Rs. 5 lakhs per family per year for secondary and tertiary care hospitalization free of cost.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <!--    Block 9 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="Pradhan Mantri Kisan Mandhan Yojana"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Eligibility
+                \n Should be an Indian Citizen
+                \n For Small and Marginal Farmers
+                \n Entry Age between 18 to 40 years
+                \n Cultivable land up to 2 hectares as per land records of the concerned State/UT
+                \n Benefits
+                \n Assured pension of Rs. 3000/- month
+                \n Voluntary and Contributory Pension Scheme
+                \n Matching Contribution by the Government of India.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <!--    Block 10 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="Self Employment Scheme for Rehabilitation of Manual Scavengers" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Eligibility
+                \n Should be an Indian Citizen
+                \n Identified manual scavengers, one from each family, (as defined in para 2.3.1) would be eligible for One Time Cash Assistance (OTCA) of Rs. 40,000/- or any such amount as OTCA as revised from time to time.
+                \n Benefits
+                \n The manual scavenger and the dependents (as defined in para 2.3.2) shall be provided, free of cost, skill training of their choice from the list of such trainings organized by the National Safai Karmacharis Finance and Development Corporation (NSKFDC) from time to time . A monthly stipend of Rs. 3000/-(Rupees three thousand only) or any such amount as may be decided from time to time to shall be remitted by NSKFDC
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</GridLayout>

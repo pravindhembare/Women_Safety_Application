@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:rowCount="5"
+    android:columnCount="1"
+    android:padding="16dp"
+    android:alignmentMode="alignMargins"
+    android:columnOrderPreserved="false"
+    android:background="@drawable/custom_background2"
+    tools:context=".FreedomRights">
+
+    <ImageView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/z23" />
+
+
+
+    <!-- Row 1, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="visible"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text=" All human beings are free and equal" />
+    </LinearLayout>
+
+    <!-- Row 2, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="No discrimination" />
+    </LinearLayout>
+
+    <!-- Row 3, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Right to life" />
+    </LinearLayout>
+
+    <!-- Row 4, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="No slavery" />
+    </LinearLayout>
+
+    <!-- Row 5, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/custom_background"
+        android:visibility="visible"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="No torture and inhuman treatment" />
+    </LinearLayout>
+
+    <!-- Row 6, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Same right to use law" />
+    </LinearLayout>
+
+    <!-- Row 7, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Equal before the law" />
+    </LinearLayout>
+
+    <!-- Row 8, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:visibility="visible"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Right to be treated fair by the court" />
+    </LinearLayout>
+
+    <!-- Row 9, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="No unfair detainment"/>
+    </LinearLayout>
+
+    <!-- Row 10, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Right to trial" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <!--    Block 1 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text=" All human beings are free and equal" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.
+               \n The right that All human beings are free and equal is articulated in Article 1 of the Universal Declaration of Human Rights (UDHR). This principle establishes the foundational idea that:
+               \n 1) Freedom and Equality: Every individual is inherently free and possesses an equal status with respect to their dignity and rights. This means that no person is inherently superior or inferior to another based on characteristics such as race, color, sex, language, religion, political or other opinions, national or social origin, property, birth, or other status.
+               \n 2) Birthright: Human beings are born with an innate and equal entitlement to certain fundamental rights and dignities. This concept rejects the notion of inherent superiority or inferiority based on circumstances of birth or any other arbitrary factors.
+               \n 3) Reason and Conscience: Individuals are endowed with reason and conscience, emphasizing the importance of rational thinking and moral consciousness. This suggests that individuals have the capacity to make informed decisions and choices guided by ethical considerations.
+               \n 4) Spirit of Brotherhood: The principle encourages mutual respect and cooperation among individuals. Acting in a spirit of brotherhood implies recognizing the shared humanity and interconnectedness of all people, fostering a sense of solidarity and empathy.
+               \n 5) Dignity: The emphasis on dignity underscores the inherent worth and value of every person. Human dignity is a foundational concept in human rights, suggesting that every individual deserves to be treated with respect and should not be subject to degrading or inhumane treatment.
+               \n The principle of All human beings are free and equal reflects a commitment to establishing a world where individuals enjoy the full scope of their rights and are treated with dignity and fairness. This principle has served as a cornerstone in the development of human rights norms and is echoed in various international treaties, conventions, and national constitutions.
+                \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <!--    Block 2 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="No Discrimination" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Everyone is entitled to all the rights and freedoms, without distinction of any kind, such as race, color, sex, language, religion, political or other opinions, national or social origin, property, birth, or another status. Furthermore, no distinction shall be made on the basis of the political, jurisdictional, or international status of the country or territory to which a person belongs.
+                \n The principle of No discriminationis a fundamental human rights concept outlined in Article 2 of the Universal Declaration of Human Rights (UDHR). This article asserts that everyone is entitled to all the rights and freedoms without any form of discrimination. The key elements of this principle are:
+                \n 1) Equality: Every individual is inherently equal and possesses the same human rights and fundamental freedoms as others. This principle promotes the idea that no person or group should be treated with favoritism or prejudice.
+                \n 2) Non-Discrimination: Human rights should be upheld without any form of distinction, such as race, color, sex, language, religion, political or other opinions, national or social origin, property, birth, or other status. Discrimination based on these factors is prohibited.
+                \n 3)Universal Application: Human rights are universal and apply to everyone, regardless of their background, identity, or characteristics. The principle rejects any attempt to deny rights based on personal attributes or circumstances.
+                \n 4) Universal Application: Human rights are universal and apply to everyone, regardless of their background, identity, or characteristics. The principle rejects any attempt to deny rights based on personal attributes or circumstances.
+                \n The No discrimination principle reflects a commitment to fostering a world where all individuals are treated fairly and with dignity, irrespective of their inherent characteristics or affiliations. It serves as a cornerstone in the protection and promotion of human rights on a global scale. This principle has been incorporated into various international treaties, conventions, and national laws to ensure that discrimination is condemned and prevented in all its forms.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <!--    Block 3 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="Right to life" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Everyone has the right to life, liberty, and security of person.
+                \n 1) Inherent Right: Every individual has an inherent and inalienable right to life. This right is not granted by any government or authority; rather, it is an essential aspect of being human.
+                \n 2) Life: This right encompasses the protection of an individual's physical existence. It implies that no one shall be arbitrarily deprived of their life. Governments and other entities are obligated to take measures to safeguard individuals from actions that threaten their lives, such as unlawful violence or execution without due process.
+                \n 3) Liberty: In addition to the right to life, individuals have the right to liberty. This involves the freedom from arbitrary arrest, detention, or imprisonment. The right to liberty ensures that individuals are protected from unjust restrictions on their freedom of movement and personal autonomy.
+                \n 4) Security of Person: Individuals are entitled to security of person, which includes protection against arbitrary interference with their physical and mental well-being. This right guards against torture, cruel or degrading treatment, and other actions that may compromise an individual's security.
+                \n 5) Human Dignity: The right to life, liberty, and security of person is closely linked to the inherent dignity of every human being. Protecting these rights contributes to preserving the dignity of individuals and acknowledges the intrinsic value of human life.
+                \n 6) Rule of Law: The recognition of the right to life, liberty, and security of person is integral to the rule of law. It implies that legal frameworks and enforcement mechanisms should be in place to prevent arbitrary actions that could violate these rights.
+                \n 7) International Standards: The right to life is not only enshrined in the UDHR but is also reiterated in various international human rights instruments, treaties, and conventions, highlighting its global significance.
+                \n In essence, the right to life, liberty, and security of person underscores the fundamental principle that individuals have a right to exist, to be free from arbitrary restrictions on their liberty, and to be protected against threats to their physical and mental well-being.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <!--    Block 4 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text=" No slavery" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms.
+                \n 1) Prohibition of Slavery and Servitude: No individual shall be subjected to slavery or servitude. Slavery, in any form, and the slave trade are explicitly prohibited. This principle condemns the practice of treating individuals as property and asserts that no person should be forced into a condition of bondage or servitude.
+                \n 2) Universal Application: The prohibition against slavery applies universally, without exception. It is a fundamental principle that recognizes the inherent dignity and equality of all individuals. This right is not subject to discrimination and extends to every person, regardless of race, color, gender, or any other characteristic.
+                \n 3) Legal Obligation: Governments and authorities are legally obligated to enforce and uphold this right. They must take measures to prevent and eradicate slavery and the slave trade within their jurisdiction. Laws and regulations must be in place to ensure the protection of individuals from any form of exploitation or forced labor.
+                \n 4) Contemporary Relevance: While historical forms of slavery have been abolished in many parts of the world, this right remains relevant in addressing modern-day manifestations of exploitation and forced labor. Governments, international organizations, and civil society have a collective responsibility to combat contemporary forms of slavery.
+                \n 5) Human Dignity: The right to be free from slavery is closely linked to the principle of human dignity. Recognizing each person's inherent worth and autonomy, this right emphasizes that no individual should be reduced to the status of a commodity or treated as the property of another.
+                \]n 6) International Cooperation: Addressing slavery requires international cooperation and coordination. Countries are encouraged to work together to prevent and eliminate all forms of slavery globally. This collaboration includes sharing information, implementing effective legal frameworks, and providing support to victims.
+                \n 7) Awareness and Education: Promoting awareness and education about the prohibition of slavery is essential. Individuals should be informed about their rights, and efforts should be made to raise awareness about the consequences of engaging in or supporting practices that amount to slavery or servitude.
+                \n In summary, the right to be free from slavery emphasizes the absolute prohibition of treating individuals as property and underscores the commitment to eradicating all forms of slavery and the slave trade worldwide.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <!--    Block 5 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="No torture and inhuman treatment" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment.
+                \n 1) Prohibition of Torture: No individual shall be subjected to torture. Torture refers to any act intentionally inflicting severe physical or mental pain or suffering. It is an absolute prohibition without exception, even in times of war or national emergency.
+                \n 2) Protection from Cruel, Inhuman, or Degrading Treatment: Individuals are protected from not only torture but also from cruel, inhuman, or degrading treatment or punishment. This broader protection encompasses acts that may not reach the threshold of torture but still cause significant suffering or humiliation.
+                \n 3) Universal Application: The right applies universally to all individuals, without discrimination based on factors such as race, color, gender, or any other status. It is a recognition of the inherent dignity and worth of every person, emphasizing the inviolability of the human person.
+                \n 4) Legal Safeguards: Governments and authorities are responsible for ensuring legal safeguards against torture and inhuman treatment. Laws and procedures must be in place to prevent, investigate, and prosecute any instances of torture or ill-treatment. This includes holding perpetrators accountable through legal mechanisms.
+                \n 5) Non-refoulement: The principle of non-refoulement, enshrined in various international instruments, prohibits the expulsion, return, or extradition of individuals to countries where they may face torture or other forms of ill-treatment. It is a crucial protection mechanism for individuals at risk.
+                \n 6) Protection of Human Dignity: The right to be free from torture and inhuman treatment is closely tied to the principle of preserving human dignity. Acts that degrade, humiliate, or inflict unnecessary suffering are considered incompatible with the respect owed to every individual.
+                \n 7) Effective Remedies: Individuals who have been subjected to torture or inhuman treatment have the right to an effective remedy. This includes access to justice, compensation, and rehabilitation. States are obligated to provide redress for victims and prevent further occurrences.
+                \n 8) International Standards: The prohibition of torture and inhuman treatment is reinforced by various international treaties and conventions, such as the Convention Against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment (CAT). States parties to these instruments commit to preventing and combating torture.
+                \n 9) Awareness and Education: Promoting awareness and education about the prohibition of torture and inhuman treatment is crucial. Training law enforcement officials, legal professionals, and the public on human rights standards contributes to preventing such acts.
+                \n In summary, the right to freedom from torture and inhuman treatment underscores the absolute rejection of any form of torture or cruel treatment. It reflects a commitment to safeguarding the well-being and dignity of every individual.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <!--    Block 6 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="Same right to use law" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Everyone has the right to recognition everywhere as a person before the law.
+                \n 1) Equal Recognition: Every individual, regardless of their background, identity, or status, has the right to be recognized as a person before the law. This principle emphasizes equality and non-discrimination in the application of legal standards.
+                \n 2) Universal Application: The right applies universally, without distinction based on race, color, sex, language, religion, political or other opinion, national or social origin, property, birth, or other status. It reaffirms the equal worth and dignity of all individuals.
+                \n 3) Legal Capacity: Recognition as a person before the law implies the possession of legal capacity. This includes the right to exercise legal rights, make decisions, and enter into legal agreements. Legal personality is a fundamental attribute that enables individuals to participate fully in society.
+                \n 4) Access to Justice: The right ensures that individuals have access to justice and legal remedies. It implies that all individuals, regardless of their background, should be able to seek legal redress in case of violations of their rights. This includes the right to a fair trial and legal representation.
+                \n 5) Protection of Vulnerable Groups: The right is particularly important for protecting vulnerable and marginalized groups who may face discrimination or denial of legal recognition. This includes refugees, stateless persons, minorities, and others who may be at risk of being excluded from legal processes.
+                \n 6) Civil and Political Rights: Recognition as a person before the law is foundational for the enjoyment of other civil and political rights. It establishes the legal basis for individuals to participate in political processes, express their opinions, and engage in civic activities.
+                \n 7) Non-arbitrary Deprivation of Rights: Governments and legal systems are obligated to ensure that individuals are not arbitrarily deprived of their legal recognition. Arbitrary denial of legal personality undermines the rule of law and the principles of justice.
+                \n 8) Documentation and Identity: The right has implications for the issuance of legal documentation and identity documents. All individuals have the right to obtain official recognition of their identity, which is essential for various aspects of life, including education, employment, and travel.
+                \n 9) International Standards: The right to recognition as a person before the law is reinforced by international human rights treaties, including the International Covenant on Civil and Political Rights (ICCPR). States are bound by these standards to ensure the effective realization of this right
+                \n In essence, the right to recognition as a person before the law is a foundational human right that underpins the equal treatment of individuals in legal systems worldwide. It serves as a cornerstone for the protection and enjoyment of a range of other human rights.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <!--    Block 7 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="Equal before the law"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation and against any incitement to such discrimination.
+                \n 1) Universal Equality: All individuals, regardless of their background, identity, or status, are equal before the law. This principle promotes the idea that everyone is entitled to the same legal rights and protections, without discrimination.
+                \n 2) Non-Discrimination: Individuals have the right to equal protection of the law without any form of discrimination. This includes protection against discrimination based on race, color, sex, language, religion, political or other opinion, national or social origin, property, birth, or other status.
+                \n 3) Legal Protections: The right to equal protection means that individuals are entitled to the same legal safeguards and procedural rights. It ensures that legal processes and remedies are accessible to all without bias, and that individuals are treated fairly and justly by the legal system.
+                \n 4) Equality of Legal Consequences: All individuals, regardless of their background, should face equal legal consequences for their actions. This principle is essential for the promotion of justice and the prevention of arbitrary or discriminatory legal practices.
+                \n 5) Access to Justice: Equality before the law emphasizes that everyone has the right to seek justice and legal redress. It implies that legal systems should be accessible to all individuals, irrespective of their social or economic status
+                \n 6) Protection Against Discrimination: The principle extends beyond legal proceedings to protect individuals from discrimination in all aspects of life. It condemns any incitement or encouragement of discrimination, promoting a society that upholds the values of equality and human dignity.
+                \n 7) Rule of Law: The right to equality before the law is a foundational element of the rule of law. It ensures that legal systems operate based on principles of fairness, impartiality, and justice, contributing to the overall stability and legitimacy of legal institutions.
+                \n 8) Social and Economic Equality: While the immediate focus is on legal equality, the principle also contributes to the broader aim of achieving social and economic equality. By ensuring equal access to legal protections, societies can work towards eliminating systemic disparities.
+                \n 9) International Standards: The principle of equality before the law is reiterated in international human rights instruments, including the International Covenant on Civil and Political Rights (ICCPR). States are obligated to uphold and protect this right as part of their commitment to human rights.
+                \n In summary, the principle of being equal before the law is a cornerstone of human rights and the rule of law. It serves as a fundamental safeguard against discrimination and ensures that justice is administered impartially and without prejudice.
+	\n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <!--    Block 8 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="Right to be treated fair by the court" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law.
+                \n 1) Access to Justice: Every individual has the right to seek justice and remedy for any violation of their fundamental rights. This includes the right to access competent national tribunals or courts to address grievances.
+                \n 2) Protection of Fundamental Rights: The right to an effective remedy specifically addresses situations where an individual's fundamental rights, as granted by the constitution or law, have been violated. It ensures that individuals can challenge and seek redress for such violations through legal avenues.
+                \n 3) Impartial and Competent Tribunals: The remedy must be provided by competent and impartial national tribunals. This underscores the importance of having fair and unbiased judicial institutions that can objectively evaluate claims and deliver justice.
+                \n 4) Comprehensive Remedies: The right to an effective remedy encompasses a range of remedies that are effective in addressing the violation. This can include compensation, restitution, rehabilitation, or any other appropriate remedy to rectify the harm suffered.
+                \n 5) Timely and Efficient Process: Individuals have the right to a remedy that is not only effective but also timely and efficient. Delays in the legal process can undermine the effectiveness of the remedy, and prompt access to justice is a crucial aspect of this right.
+                \n 6) Judicial Independence: The effectiveness of the remedy relies on the independence of the judiciary. Judicial institutions must be free from external influences to ensure fair and impartial decision-making.
+                \n 7) Non-Discrimination: The right to an effective remedy is available to all individuals without discrimination. It extends to everyone, regardless of their background, identity, or status, and promotes equal access to justice.
+                \n 8) Legal Recognition: This right emphasizes the legal recognition of fundamental rights. It acknowledges that individuals possess inherent rights, and the legal system should recognize and protect these rights.
+                \n 9) International Standards: The right to an effective remedy is reinforced by international human rights instruments such as the International Covenant on Civil and Political Rights (ICCPR). States are obligated to establish effective judicial mechanisms to address human rights violations.
+                \n 10) Prevention of Arbitrary Action: This right acts as a deterrent against arbitrary actions by authorities. Knowing that individuals have the right to seek an effective remedy discourages arbitrary behavior and promotes adherence to the rule of law.
+                \n In summary, the right to an effective remedy ensures that individuals have access to a fair and efficient legal process to address violations of their fundamental rights, contributing to the overall protection and promotion of human rights.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <!--    Block 9 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text=" No unfair detainment"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="No one shall be subjected to arbitrary arrest, detention, or exile.
+                \n 1) Protection Against Arbitrary Actions: Individuals have the right to be free from arbitrary arrest, detention, or exile. This means that any deprivation of liberty must be based on clear and lawful grounds, and not executed arbitrarily or without just cause.
+                \n 2) Legal Basis for Detention: The principle of non-arbitrary detention requires that any deprivation of liberty must be in accordance with the law. This underscores the importance of having clear legal provisions that govern the circumstances under which a person can be detained.
+                \n 3) Presumption of Innocence: Until proven guilty in a fair and impartial legal proceeding, every person is presumed innocent. The right to freedom from arbitrary detention reinforces the principle that individuals should not be detained without proper legal procedures and evidence of wrongdoing.
+                \n 4) Protection of Personal Liberty: Arbitrary detention infringes upon an individual's personal liberty. This right safeguards individuals from unjustified or capricious restrictions on their freedom and ensures that any detention is based on legitimate legal grounds.
+                \n 5) Prohibition of Exile: The right extends to prohibit arbitrary exile, emphasizing that individuals should not be forcibly removed from their country without lawful justification. Exile should not be used as a punitive measure without proper legal processes.
+                \n 6) Due Process Rights: The right to freedom from arbitrary detention is closely linked to due process rights. Individuals have the right to a fair and prompt trial if they are arrested and charged with a criminal offense. This includes the right to be informed of the charges, the right to legal representation, and the right to challenge the legality of the detention.
+                \n 7) Judicial Review: The right emphasizes the importance of judicial oversight in cases of detention. Individuals have the right to challenge the lawfulness of their detention before an independent and impartial judicial authority.
+                \n 8) Prohibition of Discrimination: The right applies to everyone without discrimination. No one should be subjected to arbitrary detention based on factors such as race, color, sex, language, religion, political or other opinions, national or social origin, property, birth, or other status.
+                \n 9) State Accountability: Governments are accountable for ensuring that no one is subjected to arbitrary arrest, detention, or exile. States have an obligation to enact and enforce laws that uphold this right and to provide remedies for individuals who have been arbitrarily detained.
+                \n 10) International Standards: The right to freedom from arbitrary detention is reinforced by international human rights instruments, including the International Covenant on Civil and Political Rights (ICCPR). States are bound by these agreements to respect and protect this fundamental right.
+                \n In summary, the right to freedom from arbitrary detention safeguards individuals from unjust and arbitrary restrictions on their liberty, promoting the principles of legality, due process, and the presumption of innocence.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <!--    Block 10 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="Right to trial" />
+
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:autoLink="all"
+            android:text="Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.
+            \n 1) Equality Before the Law: Every individual is entitled to a fair and public hearing on an equal basis. This principle underscores that all individuals, regardless of their background or status, should have equal access to and treatment within the legal system.
+            \n 2) Fair and Public Hearing: The right to a fair trial requires that legal proceedings be conducted openly and fairly. This includes public access to court proceedings, ensuring transparency and accountability in the administration of justice.
+            \n 3) Independent and Impartial Tribunal: A fair trial necessitates that the tribunal or court be independent and impartial. This ensures that the adjudicating body is free from undue influence, bias, or external pressures that could compromise the fairness of the proceedings.
+            \n 4) Determination of Rights and Obligations: The right extends to the determination of both civil and criminal matters. Individuals have the right to have their rights, obligations, and any charges against them decided in a fair and just manner.
+            \n 5) Legal Representation: The right to a fair trial includes the right to legal representation. Individuals should have the opportunity to be represented by legal counsel, enabling them to present their case effectively and understand the legal proceedings.
+            \n 6) Presumption of Innocence: The presumption of innocence until proven guilty is a fundamental aspect of the right to a fair trial. Accused individuals should be treated as innocent until proven otherwise, and the burden of proof rests with the prosecution.
+            \n 7) Prompt and Public Trial: Delays in legal proceedings should be minimized, and individuals have the right to a prompt trial. The public nature of the trial contributes to accountability and ensures that justice is administered openly.
+            \n 8) Evidence and Witnesses: The right to present evidence and call witnesses is integral to a fair trial. Individuals should have the opportunity to challenge evidence presented against them and to present evidence in their defense.
+            \n 9) Right to Appeal: Individuals have the right to appeal the decision of a court or tribunal. This safeguards against potential miscarriages of justice and allows for a review of legal decisions by a higher authority.
+            \n 10) Protection of Rights in Criminal Proceedings: In criminal cases, the accused has specific rights, such as the right to be informed of the charges, the right to a speedy trial, and the prohibition of double jeopardy (being tried for the same offense twice).
+            \n 11) Non-Discrimination: The right to a fair trial applies to everyone without discrimination. Courts and tribunals must ensure that all individuals, regardless of their characteristics, receive fair and impartial treatment.
+            \n 12) International Standards: The right to a fair trial is reinforced by international human rights instruments, and adherence to these standards is essential for the protection of human rights globally.
+            \n In summary, the right to a fair trial is a multifaceted right that encompasses various principles, including equality, independence, transparency, and the presumption of innocence. It is a cornerstone of the rule of law and essential for upholding justice and human rights.
+	        \n\n"/>
+    </ScrollView>
+
+
+    </LinearLayout>
+
+</GridLayout>

@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:rowCount="5"
+    android:columnCount="1"
+    android:padding="16dp"
+    android:alignmentMode="alignMargins"
+    android:columnOrderPreserved="false"
+    android:background="@drawable/custom_background2"
+    tools:context=".WomenRights">
+
+    <ImageView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/z22" />
+
+
+
+    <!-- Row 1, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="visible"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="The Dowry Prohibition Act.     1961" />
+    </LinearLayout>
+
+    <!-- Row 2, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="The Maternity Benefit Act.        1961" />
+    </LinearLayout>
+
+    <!-- Row 3, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="The Equal Remuneration Act. 1976" />
+    </LinearLayout>
+
+    <!-- Row 4, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="The Hindu Succession Act.    1956" />
+    </LinearLayout>
+
+    <!-- Row 5, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/custom_background"
+        android:visibility="visible"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="The Prohibition of Child Marriage Act.    2006" />
+    </LinearLayout>
+
+    <!-- Row 6, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="The National Commission for Women Act.    1990" />
+    </LinearLayout>
+
+    <!-- Row 7, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="The Medical Termination of Pregnancy Act. 1971" />
+    </LinearLayout>
+
+    <!-- Row 8, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:visibility="visible"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="The Protection of Women from Domestic Violence Act.    2005" />
+    </LinearLayout>
+
+    <!-- Row 9, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="The Indecent Representation of Women (Prohibition) Act. 1986"/>
+    </LinearLayout>
+
+    <!-- Row 10, Block 1 -->
+    <LinearLayout
+        android:id="@+id/block10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="7dp"
+        android:visibility="visible"
+        android:background="@drawable/custom_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="The Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act.      2013" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <!--    Block 1 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="The Dowry Prohibition Act.     1961" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="The Dowry Prohibition Act, 1961, is an act of the Parliament of India that aims to prohibit the giving or taking of dowry. Dowry refers to the property or valuable security given by one party to the other party in a marriage, usually by the bride's family to the groom's family or vice versa. The act was enacted to prevent the social evil of dowry, which often leads to harassment and violence against women.
+                \n 1) Definition of Dowry: The act defines dowry as any property or valuable security given or agreed to be given either directly or indirectly: By one party to a marriage to the other party, or By the parents of either party to a marriage or by any other person to either party to the marriage or to any other person at or before the time of marriage.
+                \n 2) Penalties for Giving or Taking Dowry: The act makes giving or taking dowry an offense. Both the person giving the dowry and the person taking the dowry are liable for punishment, which may include imprisonment or a fine or both.
+                \n 3) Protection of Women Against Dowry Harassment: The act provides protection to women against harassment for dowry. If a woman complains that she has been subjected to cruelty or harassment by her husband or his relatives in connection with the demand for dowry, the husband and his relatives can be penalized.
+                \n 4) Dowry Prohibition Officers: The act empowers the government to appoint Dowry Prohibition Officers to prevent and detect offenses under the act.
+                \n 5) Court Proceedings: The act outlines the procedure for the trial of offenses under its provisions.
+                \n It's important to note that the Dowry Prohibition Act is aimed at addressing the social issue of dowry and protecting individuals, particularly women, from its harmful consequences. Enforcement of the act is crucial to curbing the practice of dowry and ensuring the well-being of individuals involved in marriages.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <!--    Block 2 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="The Maternity Benefit Act.        1961" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="The Maternity Benefit Act, 1961, is an Indian labor law that aims to regulate the employment of women in certain establishments during and after childbirth and to provide them with maternity benefits. The primary objective of the act is to ensure the health and well-being of pregnant and lactating women employees and to protect them from discrimination in the workplace.
+                \n 1) Applicability: The act applies to every establishment employing ten or more people and includes factories, mines, plantations, shops, and other establishments.
+                \n 2) Entitlement to Maternity Benefits: A woman employee is entitled to maternity benefits if she has worked for the employer for at least 80 days in the twelve months preceding her expected date of delivery.
+                \n 3) Duration of Maternity Leave: The act provides for a maternity leave of twelve weeks, which includes six weeks of leave before the expected delivery date (antepartum leave) and six weeks after the delivery (postpartum leave). In case of miscarriage or medical termination, a woman is entitled to six weeks of leave.
+                \n 4) Payment during Maternity Leave: During the period of maternity leave, the woman is entitled to receive her average daily wage or salary.
+                \n 5) Maternity Leave for Adopting Mothers: The act allows adopting mothers to avail maternity leave for a period of twelve weeks from the date the child is handed over to her.
+                \n 6) Leave for Illness Arising out of Pregnancy: In case of illness arising out of pregnancy, delivery, premature birth, or miscarriage, a woman is entitled to leave with wages at the rate of the average daily wage.
+                \n 7) Notice of Pregnancy: A woman employee is required to give notice to her employer of her pregnancy and the expected date of delivery.
+                \n 8) Prohibition of Work during Certain Periods: No employer can knowingly employ a woman for six weeks following the day of delivery, and no woman can work during this period.
+                \n 9) Creche Facilities: Establishments employing 50 or more employees are required to provide creche facilities, and women employees are allowed four visits to the creche in a day.
+                \n 10) No Dismissal or Discharge during Absence: A woman on maternity leave cannot be dismissed or discharged from employment during or on account of such absence.
+                \n 11) Notice of Discharge or Dismissal: If a woman is dismissed or discharged during pregnancy, the employer must provide a written notice with the reasons for such action.
+                \n 12) Record Keeping: Employers are required to maintain records containing details of maternity benefits provided to women employees.
+                \n The Maternity Benefit Act, 1961, has been amended over the years to enhance maternity benefits and address the changing needs of working women.
+                \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <!--    Block 3 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="The Equal Remuneration Act. 1976" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="The Equal Remuneration Act, 1976, is an Indian legislation aimed at preventing discrimination on the grounds of gender in matters related to remuneration. The primary objective of the act is to ensure that men and women receive equal pay for the same work or work of a similar nature. It promotes the principle of equal remuneration for men and women and prohibits employers from discriminating against women in terms of wages.
+                \n 1) Equal Pay for Equal Work: The act mandates that employers must provide equal remuneration to male and female employees for the same work or work of a similar nature.
+                \n 2) Definition of Equal Work: The act defines work of a similar nature to include work that is substantially the same, involving similar skill, effort, and responsibility, and is performed under similar working conditions.
+                \n 3) Prohibition of Discrimination: Employers are prohibited from discriminating against women in recruitment, training, promotion, or transfer and are required to ensure that women are not treated less favorably than men in terms of wages and other employment conditions.
+                \n 4) Appointment of Authorities: The act empowers the appropriate government to appoint authorities for the hearing and disposal of complaints related to equal remuneration.
+                \n 5) Advisory Boards: The government may appoint advisory boards to advise on matters related to the application of the act.
+                \n 6) Factors for Determining Equal Remuneration: In determining whether the remuneration paid to men and women is equal, the act considers factors such as the nature of work, skill, effort, and responsibility required for the job.
+                \n 7) Employer's Obligations: Employers are required to maintain records and registers containing particulars of employees, the work performed by them, and the remuneration paid to them.
+                \n 8) Power to Inspect: The act grants the appropriate government the power to appoint inspectors to inquire into and inspect records to ensure compliance with the provisions of the act.
+                \n 9) Penalties for Violation: Employers found guilty of violating the provisions of the act may be subject to penalties, including fines.
+                \n 10) Complaints and Appeals: The act provides for the filing of complaints by employees regarding discriminatory practices, and it outlines the procedures for filing appeals.
+                \n The Equal Remuneration Act, 1976, is a crucial piece of legislation that addresses gender-based wage discrimination and contributes to promoting gender equality in the workplace. It plays a significant role in fostering fair labor practices and ensuring that men and women receive just and equitable remuneration for their work.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <!--    Block 4 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="The Hindu Succession Act.    1956" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="The Hindu Succession Act, 1956, is an important piece of legislation that governs the principles of inheritance and succession among Hindus. It applies to Hindus, Buddhists, Jains, and Sikhs, defining the rules for the distribution of property in case of intestate (without a will) succession.
+                \n 1) Applicability: The act applies to Hindus, Buddhists, Jains, and Sikhs. It does not apply to Muslims, Christians, Parsis, or Jews, as they have separate laws governing succession.
+                \n 2) Intestate Succession: The act deals with the devolution of property in case a Hindu dies without making a will (intestate). The property is distributed among the legal heirs according to the rules specified in the act.
+                \n 3) Class I Heirs: The act categorizes heirs into different classes. Class I heirs have the first right to the property, and if any of them is alive, the property will devolve to them. Class I heirs include the widow, children, and mother.
+                \n 4) Class II Heirs: If there are no Class I heirs, the property devolves to Class II heirs, which include the father, siblings, and their children.
+                \n 5) Agnates and Cognates: The act distinguishes between agnates (relatives through males) and cognates (relatives through females) in determining the order of succession.
+                \n 6) Mitakshara and Dayabhaga Schools: The act acknowledges the two major schools of Hindu law, namely Mitakshara and Dayabhaga, and incorporates their principles in matters of succession.
+                \n 7) Full Blood and Half Blood: The act recognizes both full blood and half blood relationships when determining the order of succession. Full blood heirs have a preferential right over half blood heirs.
+                \n 8) Rights of Female Heirs: The act marks a significant departure from the traditional Hindu law by granting daughters equal rights in the ancestral property. Daughters are now coparceners and have the same rights as sons.
+                \n 9) Amendments: The Hindu Succession (Amendment) Act, 2005, brought about significant changes to the act by granting daughters equal rights in ancestral property. The amendment is applicable retrospectively from the date of its enforcement.
+                \n 10) Partition: The act provides for the partition of property among heirs, allowing each heir to receive a share according to the rules of succession.
+                \n The Hindu Succession Act, 1956, was enacted to bring about uniformity in succession laws among Hindus and to address gender disparities in inheritance. The amendments made in 2005 aimed at ensuring equality among male and female heirs in matters of property inheritance.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <!--    Block 5 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="The Prohibition of Child Marriage Act.    2006" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="The Prohibition of Child Marriage Act, 2006, is an Indian legislation enacted to address the issue of child marriages and provide legal measures to prevent the solemnization of marriages where one or both parties are minors. The act aims to protect the rights of children and promote their overall well-being by prohibiting the harmful practice of child marriage.
+                \n 1) Definition of Child Marriage: The act defines child marriage as a marriage in which either the groom or the bride is a minor.
+                \n 2) Minimum Age for Marriage: The act establishes the minimum age for marriage as 18 years for females and 21 years for males. Any marriage involving individuals below these ages is considered a child marriage.
+                \n 3) Offenses and Penalties: The act makes it an offense to perform, participate in, or solemnize a child marriage. Penalties are prescribed for those who contravene the provisions of the act.
+                \n 4) Nullity of Child Marriage: Child marriages are voidable at the option of the contracting party who was a child at the time of marriage. The act provides for the annulment of child marriages on the application of either party.
+                \n 5) Maintenance and Residence Orders: The act allows the district court to pass maintenance orders for the benefit of the spouse in a voidable child marriage. It also empowers the court to issue residence orders for the female party.
+                \n 6) Child Marriage Prohibition Officers: The government appoints Child Marriage Prohibition Officers at the district and sub-district levels to prevent child marriages. These officers have the authority to take necessary steps to prevent child marriages and protect the welfare of minors.
+                \n 7) Reporting of Child Marriages: The act places an obligation on any person having knowledge of the occurrence of a child marriage to report it to the Child Marriage Prohibition Officer.
+                \n 8) Awareness Programs: The act mandates the government to initiate and implement programs to create awareness about the harms of child marriage and the legal consequences associated with it.
+                \n 9) Child Marriage Prevention Fund: The government may establish a fund to support programs and activities aimed at preventing child marriages and rehabilitating victims.
+                \n The Prohibition of Child Marriage Act, 2006, represents a significant step toward protecting the rights of children and preventing the social and health consequences associated with child marriages. It emphasizes the importance of ensuring that individuals enter into marriage freely and with their full and informed consent, safeguarding the well-being of minors in the process.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <!--    Block 6 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="The National Commission for Women Act.    1990" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="The National Commission for Women (NCW) Act, 1990, is an Indian legislation that established the National Commission for Women. The primary purpose of the NCW is to promote and safeguard the rights and interests of women in India. The Commission works towards ensuring gender equality and preventing discrimination and violence against women.
+                \n 1) Establishment of the National Commission for Women: The act establishes the National Commission for Women, which is a statutory body with the mandate to investigate and examine matters relating to the safeguards provided for women under the Constitution and other laws.
+                \n 2) Composition of the Commission: \n The NCW consists of:\n A full-time Chairperson,\n Fie full-time Members, and\nA Member-Secretary.
+                \n 3) Appointment and Term of Office: The Chairperson and Members of the Commission are appointed by the President of India. They hold office for a term of three years or until they attain the age of 65 years, whichever is earlier. They are eligible for reappointment.
+                \n 4) Functions of the Commission: The primary functions of the NCW include: \n Investigating and examining all matters related to the safeguards provided for women under the Constitution and other laws. \n Presenting reports to the government on issues affecting women. \n Advising the government on policies and legislation affecting women. \n Inquiring into complaints and taking suo-motu notice of matters relating to: \n Deprivation of women's rights, \n Non-implementation of laws providing protection to women, and \n Non-compliance of policy decisions affecting women.
+                \n 5) Powers of a Civil Court: The Commission has the powers of a civil court while inquiring into complaints. It can summon and enforce attendance, examine witnesses, and produce documents.
+                \n 6) Submission of Annual and Special Reports: The NCW is required to submit an annual report to the central government detailing its activities during the year. It can also submit special reports on specific matters when necessary.
+                \n 7) Advisory Role: The Commission can advise the government on policies and programs for the advancement of women.
+                \n 8) Research and Investigation: The NCW can conduct research and investigation into specific problems faced by women.
+                \n 9) Review of Existing Legislation: The Commission can review, from time to time, the existing provisions of the Constitution and other laws affecting women and recommend changes.
+                \n The National Commission for Women Act, 1990, empowers the NCW to work effectively towards the protection of women's rights, the elimination of discrimination, and the promotion of gender equality in various spheres of life.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <!--    Block 7 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="The Medical Termination of Pregnancy Act. 1971"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="he Medical Termination of Pregnancy (MTP) Act, 1971, is an Indian legislation that governs the conditions under which medical termination of pregnancy is permitted. The act was enacted to provide legal and safe options for women to undergo abortions under specified circumstances, safeguarding their reproductive rights and health.
+                \n 1) Conditions for Termination: The act allows the termination of pregnancy by a registered medical practitioner under certain conditions. These conditions include the risk to the life of the pregnant woman, physical or mental health risk to the woman or her existing children, the possibility of fetal abnormalities, or pregnancy resulting from rape.
+                \n 2) Gestational Limit: The act sets a gestational limit for abortion. In the case of a registered medical practitioner, abortion can be performed up to 20 weeks of pregnancy. Beyond 20 weeks, abortion is allowed only if it is immediately necessary to save the life of the pregnant woman.
+                \n 3) Informed Consent: The woman's informed consent is required for the termination of pregnancy. In the case of a minor, the consent of her guardian is necessary.
+                \n 4) Registered Medical Practitioners: Only registered medical practitioners who meet the criteria specified in the act are authorized to perform abortions. The act defines the qualifications and conditions for such practitioners.
+                \n 5) Place of Abortion: The act stipulates that the abortion should be performed at a place registered under the act or at a hospital approved for this purpose.
+                \n 6) Reporting Requirements: Medical practitioners performing abortions are required to maintain records and submit reports to the appropriate authorities. The act outlines the information to be included in these reports.
+                \n 7) Emergency Situations: In emergency situations, where the immediate termination of pregnancy is necessary to save the life of the pregnant woman, the gestational limit does not apply.
+                \n 8) Penalties: The act specifies penalties for the violation of its provisions, including unauthorized termination of pregnancy.
+                \n The Medical Termination of Pregnancy Act, 1971, was amended in 2021 to address certain shortcomings and enhance access to safe and legal abortion services. The amendments include an increase in the gestational limit for abortion under certain conditions and improved access to abortion services for women.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <!--    Block 8 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="The Protection of Women from Domestic Violence Act.    2005" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:text="The Protection of Women from Domestic Violence Act, 2005 is an Act of the Parliament of India enacted to protect women from domestic violence. The Act recognizes that domestic violence is a violation of the fundamental rights of women and aims to provide legal remedies and safeguards for women facing such violence within the home.
+                \n 1) Definition of Domestic Violence: The Act defines domestic violence to include physical, sexual, verbal, emotional, and economic abuse. It also covers harassment by way of unlawful dowry demands and any other act that harms or injures the woman with the purpose of coercing her or any person related to her to meet any unlawful demand for any property or valuable security.
+                \n 2) Protection Officers: The Act provides for the appointment of Protection Officers to assist victims and implement the provisions of the Act.
+                \n 3) Protection Orders: The Act empowers the Magistrate to issue protection orders to prevent the respondent from committing any act of domestic violence.
+                \n 4) Residence Orders: The Act allows the woman to seek a residence order, which may include excluding the respondent from a shared household.
+                \n 5) Monetary Relief: The Act provides for the award of monetary relief to meet the expenses incurred and losses suffered by the victim as a result of domestic violence.
+                \n 6) Counseling: The Act envisions counseling and other support services for victims of domestic violence.
+                \n 7) Violation of Protection Orders: The Act makes it an offense if the respondent violates any protection order granted by the Magistrate.
+                \n 8) Rights of the Victim: The Act recognizes the right of the victim to reside in a shared household, regardless of her marital status.
+                 \n The Protection of Women from Domestic Violence Act, 2005 is an important legal framework aimed at addressing the issue of domestic violence and providing a comprehensive mechanism for the protection of women's rights in such situations.
+                \n \n" />
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+
+    <!--    Block 9 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="The Indecent Representation of Women (Prohibition) Act. 1986"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="The Indecent Representation of Women (Prohibition) Act, 1986, is an Indian legislation aimed at prohibiting the indecent representation of women through advertisements, publications, writings, paintings, figures, or in any other manner. The primary objective of the act is to prevent the exploitation of women's dignity and to curb the use of derogatory or offensive portrayals of women.
+                \n 1) Definition of Indecent Representation: The act defines indecent representation of women to include the depiction of the figure or form of a woman in a manner that is indecent, derogatory, or likely to deprave or corrupt public morality.
+                \n 2) Prohibition of Indecent Representation: The act prohibits the publication or distribution of any material that contains indecent representation of women in any form, whether through advertisements, publications, or other means.
+                \n 3) Power of Search and Seizure: The act grants powers to the police to conduct searches and seize materials that are in violation of the act. Authorities have the right to enter and search any premises where they have reason to believe that an offense under the act is being committed.Penalties: The act prescribes penalties for offenses related to the indecent representation of women. Those found guilty may face imprisonment, fines, or both. Repeat offenses may lead to enhanced penalties.
+                \n 4) Penalties: The act prescribes penalties for offenses related to the indecent representation of women. Those found guilty may face imprisonment, fines, or both. Repeat offenses may lead to enhanced penalties.
+                \n 5) Cognizance of Offenses: The act specifies that offenses under its provisions are cognizable, which means that the police can make arrests without a warrant.
+                \n 6) Advisory Boards: The act provides for the establishment of Advisory Boards at the central and state levels to advise the government on matters related to the indecent representation of women. These boards play a role in the assessment of materials and cases.
+                \n 7) International Cooperation: The act enables the central government to cooperate with international organizations and foreign governments in matters related to combating the indecent representation of women.
+                \n 8) Offenses by Companies: If an offense is committed by a company, every person who was in charge of, and responsible for, the conduct of the business of the company at the time of the offense may be held liable.
+                \n The Indecent Representation of Women (Prohibition) Act, 1986, reflects the commitment of the Indian legal system to protect the dignity and rights of women by preventing the dissemination of content that portrays them in a demeaning or exploitative manner.
+                \n\n"/>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <!--    Block 10 Popup-->
+    <LinearLayout
+        android:id="@+id/popupContainerBlock10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@drawable/custom_background"
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingTop="12dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="The Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act.      2013" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:paddingTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:autoLink="all"
+                android:text="The Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013, is an act of the Parliament of India aimed at preventing and addressing instances of sexual harassment of women in the workplace. The act was enacted to create a safe and secure working environment for women and to ensure that they are not subjected to harassment or inappropriate behavior at their workplaces.
+                \n 1) Definition of Sexual Harassment: The act provides a comprehensive definition of sexual harassment, including unwelcome acts or behavior, demand or request for sexual favors, making sexually colored remarks, or any other unwelcome physical, verbal, or non-verbal conduct of a sexual nature.
+                \n 2) Applicability: The act is applicable to all workplaces, including the organized and unorganized sectors, the public and private sectors, hospitals, nursing homes, educational institutions, sports institutes, and more.
+                \n 3) Constitution of Internal Complaints Committee (ICC): Every organization with 10 or more employees is required to constitute an Internal Complaints Committee (ICC) to address complaints of sexual harassment. In case a workplace has less than 10 employees, the act provides for the formation of a Local Complaints Committee (LCC) at the district level.
+                \n 4) Duties of Employers: Employers are mandated to provide a safe working environment and display information about the consequences of sexual harassment. They must also organize workshops and awareness programs at regular intervals.
+                \n 5) Prohibition of Retaliation: The act prohibits retaliation or adverse action against the complainant or witnesses for filing a complaint or assisting in the inquiry.
+                \n 6)Redressal Mechanism: The act provides for a redressal mechanism through the Internal Complaints Committee (ICC) or the Local Complaints Committee (LCC). It outlines the procedure for filing and addressing complaints, including conducting inquiries and providing recommendations for action.
+                \n 7) Penalties: Penalties are prescribed for non-compliance with the provisions of the act, including fines and cancellation of business licenses.
+                \n The Sexual Harassment of Women at Workplace Act, 2013, emphasizes the importance of preventing and addressing sexual harassment at workplaces and promoting a safe and respectful work environment for women. Organizations are required to comply with the act's provisions to ensure the well-being of women employees.
+	            \n\n"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</GridLayout>

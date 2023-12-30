@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="Information"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="Information"
+        app:layout_constraintEnd_toStartOf="@+id/fab"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_rotate" />
+
+    <ImageButton
+        android:id="@+id/emergencyButton"
+        android:layout_width="208dp"
+        android:layout_height="214dp"
+        android:layout_marginTop="136dp"
+        android:contentDescription="Emergency BUtton"
+        android:src="@drawable/emg1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="204dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="Emergency BUtton"
+        android:src="@drawable/a3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/MainActivity2"
+        android:layout_width="208dp"
+        android:layout_height="214dp"
+        android:layout_marginTop="392dp"
+        android:contentDescription="Emergency BUtton"
+        android:src="@drawable/arrow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="buttonGetLocation"
+        android:text="Please Turn On GPS To Get Your Location\n And Reload The Page.\nBy Pravin Dhembare  2023"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/popupContainer"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/custom_background"
+        android:textAlignment="center"
+        android:verticalScrollbarPosition="right"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="2dp"
+            android:contentDescription="Information"
+            android:onClick="closePopup"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="390dp"
+            android:layout_marginStart="-350dp"
+            android:layout_marginTop="60dp"
+            android:textSize="20dp"
+            android:text="EMERGENCY  BUTTON\n\n Single Click : Get Your Emergency Contacts.\n Double Click : Get Government Emergency Contacts.\n Long Press : Call To Police and send Default Emergency Message with Location to Your Emergency Contacts.\n\n\n ARROW  BUTTON\n\nGo To Main Menu Of The Application\n\n\n "
+            android:textAlignment="center"
+            android:textColor="#C61212"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
